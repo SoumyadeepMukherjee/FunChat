@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunChat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="assets/favicon.png" alt="iChat Logo" />
+        <h1>Welcome to FunChat</h1>
+    </nav>
+
+    <div class="container">
+        <!-- <div class="message right">Soumyadeep: How are u?</div>
+        <div class="message left">Rohan: I am fine.What about u?</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" id="messageInp" placeholder="Type your message">
+            <button type="submit" id="sendBtn">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
